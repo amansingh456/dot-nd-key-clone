@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="Icon" href="//cdn.shopify.com/s/files/1/0361/8553/8692/files/d_and_k_and_logo_1_32x32.png?v=1593074179"
+        type="logo" />
+    <title>Dot & Key Skincare | Natural Skin care | Scientific Skincare</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">
+    <script src="https://kit.fontawesome.com/9675dee80e.js" crossorigin="anonymous"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;1,500&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .responsive {
+            display: flex;
+            margin: auto;
+            background-color: #50504b;
+        }
+
+        .one {
+            height: 30px;
+            color: white;
+            text-align: center;
+            margin-top: 5px;
+            font-size: 15px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: bolder;
+            text-transform: uppercase;
+            text-decoration: underline;
+            word-spacing: 3px;
+
+        }
+
+        #navbar {
+            height: 120px;
+            display: flex;
+            justify-content: space-around;
+            border-bottom: 0.5px solid #afafaf;
+        }
+
+        .nav_child {
+            width: 20%;
+        }
+
+        .menu {
+            font-size: 25px;
+            align-self: center;
+        }
+
+        .logo {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .icons {
+            font-size: 25px;
+            align-self: center;
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        #navbar i {
+            color: #474747;
+        }
+
+
+
+        .main-imgs img {
+            width: 100vw;
+            height: 450px;
+            border-radius: 20px;
+        }
+
+        .slick-dots li button:before {
+            font-size: 15px;
+            line-height: 30px;
+        }
+
+
+        /* Main section  */
+
+        .lovedby {
+            width: 85%;
+            text-align: center;
+            margin: auto;
+            margin-top: 80px;
+            margin-bottom: 80px;
+        }
+
+        .lovedby>h3 {
+            font-size: 30px;
+            font-weight: 600;
+            text-transform: capitalize;
+            font-family: 'Montserrat', sans-serif;
+            opacity: 0.9;
+        }
+
+        .lovedby>h1 {
+            margin-top: 10px;
+            margin-bottom: 40px;
+            text-transform: capitalize;
+            font-size: 30px;
+            font-weight: 800;
+            font-family: 'Montserrat', sans-serif;
+            opacity: 0.8;
+        }
+
+        .lovedbyimg img {
+            width: 100vw;
+            border-radius: 20px;
+        }
+
+        .slick-prev:before,
+        .slick-next:before {
+            color: #000;
+        }
+
+
+        .shopour{
+            text-align: center;
+        }
+
+        .shopour>h5 {
+            font-size: 22px;
+            font-weight: 600;
+            text-transform: capitalize;
+            font-family: 'Montserrat', sans-serif;
+            opacity: 0.9;
+        }
+
+        .shopour>h1 {
+            margin-top: 10px;
+            margin-bottom: 40px;
+            text-transform: capitalize;
+            font-size: 30px;
+            font-weight: 800;
+            font-family: 'Montserrat', sans-serif;
+            opacity: 0.8;
+        }
+
+
+        #shopourimg{
+            width: 75%;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+
+        }
+        #shopourimgOne{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #shopourimgTwo{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #shopourimgOne>div{
+            width: 22%;
+        }
+        #shopourimgTwo>div{
+            width: 22%;
+        }
+
+        #shopourimgOne img,
+        #shopourimgTwo img{
+            width: 100%;
+            height: 60%;
+        }
+
+
+
+        #shopourimg button {
+            width: 100%;
+        }
+
+
+
+        #prodWHolePrice {
+            border: 1px solid green;
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        /* .slick-slide{
+            margin: 0 20px;
+        } */
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div id="bar" class="responsive">
+            <div class="one">5 Bestsellers free on orders 1399+</div>
+            <div class="one">3 Bestsellers free on orders 999+</div>
+            <div class="one">Upto 20% off sitewide</div>
+            <div class="one">3% off on prepaid orders+ 10% cashback</div>
+            <div class="one">flash Sale: serums & Masks at flat 499</div>
+        </div>
+        <div id="navbar">
+            <div class="menu nav_child">
+                <i class="fa-solid fa-bars-staggered"></i>
+            </div>
+            <div class="logo nav_child">
+                <img src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/unnamed_250x_200x_2x_260x_24408e11-6e3a-4a0c-8327-74d0455f7696_260x.jpg?v=1646547348"
+                    alt="mainLogo">
+            </div>
+            <div class="icons nav_child">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-location-dot"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <i class="fa-solid fa-arrow-down"></i>
+            </div>
+
+        </div>
+
+        <div class="main-imgs">
+            <a href=""><img
+                    src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/1_desk_7f3df301-1d23-4327-800b-8b63bccfd0a6_1.jpg?v=1658910526"
+                    alt=""></a>
+            <a href=""><img
+                    src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/Desktop_4_3babe833-d39a-41e1-820b-094106abf857.png?v=1658910529"
+                    alt=""></a>
+            <a href=""><img src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/vit_c_desk_2.png?v=1660133127"
+                    alt=""></a>
+            <a href=""><img
+                    src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/1-Product_banner_Desktop_5.jpg?v=1659687433"
+                    alt=""></a>
+            <a href=""><img
+                    src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/desk_home_top_7ad6b900-1b7f-4dc5-93f5-a2ee54906b6d.jpg?v=1660218807"
+                    alt=""></a>
+        </div>
+
+    </header>
+
+    <main>
+        <section class="first">
+            <div class="lovedby">
+                <h3>Loved by</h3>
+                <h1><i>10 lakh+ customers</i></h1>
+                <div class="lovedbyimg">
+                    <a href=""><img
+                            src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/Sale_Banner_Desktop_27.jpg?v=1661143907"
+                            alt=""></a>
+                    <a href=""><img
+                            src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/5_Sale_Banner_Desktop_copy.jpg?v=1660886724"
+                            alt=""></a>
+                    <a href=""><img
+                            src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/3_Sale_Banner_Desktop_copy.jpg?v=1660886724"
+                            alt=""></a>
+                </div>
+            </div>
+        </section>
+        <section class="second">
+            <div class="shopour">
+                <h5>shop our</h5>
+                <h1><i>new arrivals</i></h1>
+                <div id="shopourimg">
+                    <div id="shopourimgOne"></div>
+                    <div id="shopourimgTwo"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<script>
+
+    $('.responsive').slick({
+        dots: false,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 1,
+        slidesToScroll: 4,
+        autoplay: true,
+        autoplaySpeed: 5000,
+        // responsive: [
+        //     {
+        //         breakpoint: 1024,
+        //         settings: {
+        //             slidesToShow: 3,
+        //             slidesToScroll: 3,
+        //             infinite: true,
+        //             dots: true
+        //         }
+        //     },
+        //     {
+        //         breakpoint: 600,
+        //         settings: {
+        //             slidesToShow: 2,
+        //             slidesToScroll: 2
+        //         }
+        //     },
+        //     {
+        //         breakpoint: 480,
+        //         settings: {
+        //             slidesToShow: 1,
+        //             slidesToScroll: 1
+        //         }
+        //     }
+        //     // You can unslick at a given breakpoint now by adding:
+        //     // settings: "unslick"
+        //     // instead of a settings object
+        // ]
+    });
+
+    $('.main-imgs').slick({
+        dots: true,
+        infinite: true,
+        speed: 1000,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 4000,
+        button: false,
+
+    });
+
+
+
+    $('.lovedbyimg').slick({
+        dots: true,
+        autoplay: true,
+        autoplaySpeed: 10000,
+
+    });
+
+    // $('#shopourimg').slick({
+    //     dots:true,
+    //     infinite: true,
+    //     slidesToShow: 1,
+    //     slidesToScroll: 1
+    // });
+
+
+</script>
