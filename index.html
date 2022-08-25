@@ -114,7 +114,7 @@
         }
 
         .lovedbyimg img {
-            width: 100vw;
+            width: 100%;
             border-radius: 20px;
         }
 
@@ -123,8 +123,9 @@
             color: #000;
         }
 
-
-        .shopour{
+        .shopour {
+            width: 75%;
+            margin: auto;
             text-align: center;
         }
 
@@ -138,7 +139,7 @@
 
         .shopour>h1 {
             margin-top: 10px;
-            margin-bottom: 40px;
+            margin-bottom: 20px;
             text-transform: capitalize;
             font-size: 30px;
             font-weight: 800;
@@ -146,55 +147,409 @@
             opacity: 0.8;
         }
 
+        .card-wrapper{
+            display:flex;
+            justify-content: center;
+            margin: auto;
+        }
 
-        #shopourimg{
+
+        .bestseller {
             width: 75%;
             margin: auto;
-            display: flex;
-            flex-direction: column;
-
-        }
-        #shopourimgOne{
-            display: flex;
-            justify-content: space-between;
+            text-align: center;
         }
 
-        #shopourimgTwo{
-            display: flex;
-            justify-content: space-between;
+        .bestseller>h5 {
+            margin-top: 80px;
+            font-size: 22px;
+            font-weight: 600;
+            text-transform: capitalize;
+            font-family: 'Montserrat', sans-serif;
+            opacity: 0.9;
         }
 
-        #shopourimgOne>div{
-            width: 22%;
-        }
-        #shopourimgTwo>div{
-            width: 22%;
-        }
-
-        #shopourimgOne img,
-        #shopourimgTwo img{
-            width: 100%;
-            height: 60%;
+        .bestseller>h1 {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            text-transform: capitalize;
+            font-size: 30px;
+            font-weight: 800;
+            font-family: 'Montserrat', sans-serif;
+            opacity: 0.8;
+            text-transform: uppercase;
         }
 
-
-
-        #shopourimg button {
-            width: 100%;
-        }
-
-
-
-        #prodWHolePrice {
-            border: 1px solid green;
+        .bestseller>.thirdMiddle{
+            width: 40%;
+            /* border: 1px solid red;*/
             display: flex;
             justify-content: space-evenly;
+            margin: auto;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 900;
+            letter-spacing: 1px;
+            margin-bottom: 30px;
         }
+        .bestseller>.thirdMiddle>div{
+            opacity: 0.8;
+        }
+        .bestseller>.thirdMiddle>div:first-child{
+            color: red;
+            opacity: 1;
+        }
+
+        .card-wrapperTwo{
+            display:flex;
+            justify-content: center;
+            margin: auto;
+        }
+        .card{
+            width: 22%;
+            margin: 0 20px;
+            border: 0.5px solid #afafaf;
+        }
+        .card img{
+            width: 100%;
+        }
+
+        .card-content>h6{
+            font-size: 13px;
+            opacity: 0.8;
+            font-family: 'Montserrat', sans-serif;
+        }
+        .card-content>h6>span{
+            color: blue;
+        }
+        .card-content>p{
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-size: 14px;
+            font-weight:bolder;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        #prodWHolePrice {
+            /* border: 1px solid green; */
+            display: flex;
+            justify-content: space-evenly;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 13px;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+
+        #prodWHolePrice>div:first-child{
+            opacity: 0.8;
+            text-decoration: line-through;
+        }
+
+        #prodWHolePrice>div:last-child{
+           color: red;
+        }
+
+        .card-content>button{
+            width: 100%;
+            font-size: 16px;
+            text-transform: uppercase;
+            padding: 10px 0;
+            background-color: #7b7b7b;
+            opacity: 0.8;
+            border: none;
+            color: #fff;
+        }
+         
+        
+        .spotlight{
+            width: 95%;
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+            text-align: center;
+        }
+        .spotlight>h5{
+            margin-top: 80px;
+            font-size: 22px;
+            font-weight: 600;
+            text-transform: capitalize;
+            font-family: 'Montserrat', sans-serif;
+            /* opacity: 0.9; */
+            text-transform: uppercase;
+        }
+
+        .spotlight>h1{
+            /* margin-top: 10px; */
+            margin-bottom: 20px;
+            text-transform: capitalize;
+            font-size: 30px;
+            font-weight: 800;
+            font-family: 'Montserrat', sans-serif;
+            /* opacity: 0.8;  */
+            text-transform: uppercase;
+        }
+
+        .spotlightImg{
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            grid-template-rows: repeat(1, 250px);
+            gap: 15px;
+        }
+        .spotlightImg img{
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+        }
+        #oneSpotlight{
+            grid-area: 1/1/2/3;
+        }
+        #twoSpotlight{
+            grid-area: 1/3/2/5 ;
+        }
+        #threeSpotlight{
+            grid-area: 2/1/3/5;
+        }
+
+
+        .categories{
+            width: 75%;
+            margin: auto;
+            text-align: center;
+        }
+
+        .categories>h5 {
+            margin-top: 80px;
+            font-size: 22px;
+            font-weight: 600;
+            text-transform: capitalize;
+            font-family: 'Montserrat', sans-serif;
+            opacity: 0.9;
+        }
+
+        .categories>h1 {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            text-transform: capitalize;
+            font-size: 30px;
+            font-weight: 800;
+            font-family: 'Montserrat', sans-serif;
+            opacity: 0.8;
+            text-transform: uppercase;
+        }
+
+        .categories>.fifthdMiddle{
+            width: 60%;
+            /* border: 1px solid red;*/
+            display: flex;
+            justify-content: space-evenly;
+            margin: auto;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 900;
+            letter-spacing: 1px;
+            margin-bottom: 30px;
+        }
+        
+        #fifthMiddleRed{
+            color: red;
+            opacity: 1;
+        }
+
+        .card-wrapperThree{
+            display:flex;
+            justify-content: center;
+            margin: auto;
+        }
+
+        .fifth>.pinkBar{
+            margin-top: 40px;
+            width: 100vw;
+        }
+        .fifth>.pinkBar>a>img{
+            width: 100%;
+        }
+
+        .sixth{
+            width: 100vw;
+            margin-top: 80px;
+            text-align: center;
+        }
+        .Nclass>a>img{
+            width: 100%;
+        }
+       
+
+        .seventh{
+            width: 100vw;
+            margin-top: 20px;
+            text-align: center;
+        }
+        
+        .cleanBeuty>a>img{
+            width: 100%;
+            
+        }
+        .seventh>h5 {
+            margin-top: 5px;
+            margin-bottom: 15px;
+            font-size: 20px;
+            font-weight: 600;
+            text-transform: capitalize;
+            font-family: 'Montserrat', sans-serif;
+            opacity: 0.9;
+            text-transform: uppercase;
+        }
+
+        .seventh>h1 {
+            margin-top: 50px;
+            /* margin-bottom: 10px; */
+            text-transform: capitalize;
+            font-size: 30px;
+            font-weight: 800;
+            font-family: 'Montserrat', sans-serif;
+            /* opacity: 0.8; */
+            text-transform: uppercase;
+        }
+
+        .eight{
+            width: 80vw;
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+            text-align: center;
+        }
+        .eight h5 {
+            margin-top: 5px;
+            margin-bottom: 15px;
+            font-size: 20px;
+            font-weight: 600;
+            text-transform: capitalize;
+            font-family: 'Montserrat', sans-serif;
+            /* opacity: 0.9; */
+            text-transform: uppercase;
+        }
+
+        .eight h1 {
+            margin-top: 50px;
+            /* margin-bottom: 10px; */
+            text-transform: capitalize;
+            font-size: 30px;
+            font-weight: 800;
+            font-family: 'Montserrat', sans-serif;
+            /* opacity: 0.8; */
+            text-transform: uppercase;
+        }
+
+        .eightP2,
+        .eightP3{
+            font-size: 20px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: bold;
+            line-height: 35px;
+            word-spacing: 3px;
+            letter-spacing: 0.5px;
+            opacity: 0.9;
+        }
+        .eightP3{
+            margin: 30px 0;
+        }
+
+        .eight_logo{
+            display: flex;
+            justify-content: space-evenly;
+            /* border: 1px solid red; */
+        }
+        .eight_logo>img{
+            width: 200px;
+        }
+
+        .nine{
+            text-align: center;
+            width: 75vw;
+            margin: auto;
+        }
+        .nine>h5 {
+            margin-top: 20px;
+            margin-bottom: 5px;
+            font-size: 19px;
+            font-weight: 600;
+            text-transform: capitalize;
+            font-family: 'Montserrat', sans-serif;
+            /* opacity: 0.9; */
+            text-transform: uppercase;
+        }
+
+        .nine>h1 {
+            margin-top: 5px;
+            margin-bottom: 30px;
+            text-transform: capitalize;
+            font-size: 30px;
+            font-weight: 800;
+            font-family: 'Montserrat', sans-serif;
+            /* opacity: 0.8; */
+            text-transform: uppercase;
+        }
+        .nine img{
+            width: 150px;
+            height: 150px;
+            border-radius: 20px;
+            position: relative;
+        }
+        .customer{
+            display: flex;
+        }
+        .customer>div{
+            width: 30%;
+            margin: auto;
+            
+            /* border: 1px solid black; */
+        }
+        .customer>div>div{
+            /* border: 1px solid red; */
+            border-radius: 10px;
+            margin-top: -35px;
+            padding-top: 40px;
+            padding-left: 15px;
+            padding-right: 25px;
+            padding-bottom: 10px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
+        .customer>div>div>h4{
+            text-align: left;
+            font-size: 12px;
+            margin-bottom: 10px;
+        }
+        .customer>div>div>h3{
+            font-family: 'Montserrat', sans-serif; 
+            font-weight: 900;
+            font-size: 14px;
+            text-align: justify;
+            line-height: 20px;
+            
+        }
+        .customer>div>div>p{
+            margin-top: 10px;
+            font-family: 'Montserrat', sans-serif; 
+            font-weight: 600;
+            font-size: 14px;
+            text-align:initial ;
+            line-height: 23px;
+            opacity: 0.9;
+        }
+
+        .customer>div>div>h6{
+            margin-top: 10px;
+            font-family: 'Montserrat', sans-serif; 
+            text-align: right;
+        }
+
+            
 
         /* .slick-slide{
             margin: 0 20px;
         } */
     </style>
+
+
 </head>
 
 <body>
@@ -249,15 +604,9 @@
                 <h3>Loved by</h3>
                 <h1><i>10 lakh+ customers</i></h1>
                 <div class="lovedbyimg">
-                    <a href=""><img
-                            src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/Sale_Banner_Desktop_27.jpg?v=1661143907"
-                            alt=""></a>
-                    <a href=""><img
-                            src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/5_Sale_Banner_Desktop_copy.jpg?v=1660886724"
-                            alt=""></a>
-                    <a href=""><img
-                            src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/3_Sale_Banner_Desktop_copy.jpg?v=1660886724"
-                            alt=""></a>
+                    <a href=""><img src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/Sale_Banner_Desktop_27.jpg?v=1661143907" alt=""></a>
+                    <a href=""><img src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/5_Sale_Banner_Desktop_copy.jpg?v=1660886724" alt=""></a>
+                    <a href=""><img src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/3_Sale_Banner_Desktop_copy.jpg?v=1660886724" alt=""></a>
                 </div>
             </div>
         </section>
@@ -265,18 +614,124 @@
             <div class="shopour">
                 <h5>shop our</h5>
                 <h1><i>new arrivals</i></h1>
-                <div id="shopourimg">
-                    <div id="shopourimgOne"></div>
-                    <div id="shopourimgTwo"></div>
+                <div class="card-wrapper"></div>
+            </div>
+        </section>
+        <section class="third">
+            <div class="bestseller">
+                <h5>our</h5>
+                <h1><i>BestSellers</i></h1>
+                <div class="thirdMiddle">
+                    <div>SKIN</div>|
+                    <div>BODYCARE</div>|
+                    <div>HAIRCARE</div>|
+                    <div>NUTRITION</div>
+                </div>
+                <div class="card-wrapperTwo"></div>
+            </div>
+        </section>
+        <section class="fourth">
+            <div class="spotlight">
+                <h5>in the</h5>
+                <h1><i>spotlight</i></h1>
+                <div class="spotlightImg">
+                    <div  id="oneSpotlight"><a href=""><img src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/desk_7.jpg?v=1660219323" alt=""></a></div>
+                    <div  id="twoSpotlight"> <a href=""><img src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/hyaluronic_1.png?v=1659682274" alt=""></a></div>
+                    <div  id="threeSpotlight"><a href=""><img src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/desk_8.jpg?v=1660219412" alt="" ></a></div>
+                </div>
+            </div>
+        </section>
+        <section class="fifth">
+            <div class="categories">
+                <h5>SHOP OUR</h5>
+                <h1><i>Top Categories</i></h1>
+                <div class="fifthdMiddle">
+                    <div id="fifthMiddleRed">FACE CREAMS</div>|
+                    <div>FACE SCRUMS</div>|
+                    <div>FACE WASHES</div>|
+                    <div>FACE MASKS</div>
+                </div>
+                <div class="card-wrapperThree"></div>
+            </div>
+            <div class="pinkBar">
+                <a href=""><img src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/0_new_appArtboard_1_1_1.png?v=1656572545" alt=""></a>
+            </div>
+        </section>
+        <section class="sixth">
+            <div class="Nclass">
+                <a href=""><img src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/D_K_Homepage_BOGO_Banner_Desktop_Version.gif?v=1659006084" alt=""></a>
+            </div>  
+        </section>
+        <section class="seventh">
+            <h1><i>Love Is greater</i></h1>
+            <h5>when shared</h5>
+            <div class="cleanBeuty">
+                <a href=""><img src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/Untitled-2_6_1.png?v=1656572658" alt=""></a>
+            </div>
+        </section>
+        <section class="eight">
+            <div class="eightP1">
+                <h1><i>Clean Beuty</i></h1>
+                <h5>with uncompromised efficacy</h5>
+            </div>
+            <div class="eightP2">
+                At Dot & Key, we strive to find the missing <i><b>"dots"</b></i> in your skincare regime and are obsessed with providing solutions or <i><b>"dots"</b></i> to these.
+            </div>
+            <div class="eightP3">
+                Our revolutionary products are crafted with utmost care and love for you. By blending <i><b>luxurious botanicals</b></i> with<i><b> high performance activites</b></i>, we bring to you clean formulations that are absolutely safe, delightfully gentle and unquestionably effective.
+            </div>
+            <div class="eight_logo">
+                <img src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/3-ICONS.png?v=1645770027" alt="">
+                <img src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/1-ICONS_b6233563-9f3e-43f6-b158-5205886e2120.png?v=1645779546" alt="">
+                <img src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/1-ICONS_b6233563-9f3e-43f6-b158-5205886e2120.png?v=1645779546" alt="">
+                <img src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/2-ICONS.png?v=1645770027" alt="">
+            </div>
+        </section>
+        <section class="nine">
+            <h5>customer</h5>
+            <h1><i>reviews</i></h1>
+            <div class="customer">
+                <div>
+                    <img src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/vish.png?v=1656676713" alt="">
+                    <div class="customer_content">
+                        <h4>⭐⭐⭐⭐⭐</h4>
+                        <h3><b>Vitamin C Face Cream: </b><i>Perfect for my uneven skin &amp; dark spots</i></h3>
+                        <p>I had very dry &amp; flaky skin. My friend suggested that I try the Vitamin C+ E face cream . Since I’ve been using it for 4 weeks &amp; I can already notice the difference. My skin tone has evened and  it feels nourished &amp; looks more radiant. It is oil-free &amp; quick absorbing. I’m a forever fan!
+                        </p>
+                        <h6><i>Ishana Kapoor</i></h6>
+                    </div>
+                </div>
+                <div>
+                    <img src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/Daveena_Jha.png?v=1657694543" alt="">
+                    <div class="customer_content">
+                        <h4>⭐⭐⭐⭐</h4>
+                        <h3><i>The Lip Plumping Sleep Maskl: <i>My Lips Love It!!!</i></i></h3>
+                        <p>The Lip Plumping Sleep Mask infused with Vitamin C is truly magical! I have been regularly using this for 2 months now &amp; I am noticing the difference. My lips feel plumper &amp; pinker. What’s best, I can use it as a lip balm too! Loving my filter-free pouts on Insta!
+                        </p>
+                        <h6><i>Deewana Jha</i></h6>
+                    </div>
+                </div>
+                <div>
+                    <img src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/Kamakshi_Shetty.png?v=1657694543" alt="">
+                    <div class="customer_content">
+                        <h4>⭐⭐⭐⭐⭐</h4>
+                        <h3><b>Retinol Night Cream: </b><i>Works like MAGIC on my wrinkles &amp; fine lines</i></h3>
+                        <p>My skin feels so firm &amp; nourished. I could see the fine lines fading within 2 weeks of using  &amp; I’m totally in love with this Retinol Night Cream. So happy I found the one that best suits my sensitive skin.  A complete must have in your PM skincare routine.
+                        </p>
+                        <h6><i>Kamakshi Shetty</i></h6>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
 
 
-    <script src="index.js"></script>
-</body>
+    
+    
 
+
+
+</body>
 </html>
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"
@@ -343,12 +798,8 @@
 
     });
 
-    // $('#shopourimg').slick({
-    //     dots:true,
-    //     infinite: true,
-    //     slidesToShow: 1,
-    //     slidesToScroll: 1
-    // });
+
 
 
 </script>
+<script src="index.js"></script>
