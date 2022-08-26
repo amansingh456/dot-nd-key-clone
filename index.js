@@ -14,7 +14,7 @@ let dataOne = [
         stock:"  (275)",
         name:"Vitamin C+E Moisturizer Blood Orange | Pigmentation",
         sPrice:"Rs: 595.00",
-        nPrice:"Rs: 565.00"
+        nPrice:"Rs: 495.00"
     },
     {
         img_url:"https://cdn.shopify.com/s/files/1/0361/8553/8692/products/Artboard1-4_15.webp?v=1658907103",
@@ -205,7 +205,7 @@ visibleDataTwo(dataTwo)
 
 let dataThree = [
     {
-        img_url:"https://cdn.shopify.com/s/files/1/0361/8553/8692/products/LIPMASKW_APPLI_1.png?v=1658907666",
+        img_url:"https://cdn.shopify.com/s/files/1/0361/8553/8692/products/1-Green-Clay-Mask.png?v=1658907624",
         rating:"⭐ 4.7 / 5",
         stock:"  (58)",
         name:"20% Vitamin C Serum with  Ferulic Acid| Fades Royal",
@@ -214,7 +214,7 @@ let dataThree = [
 
      },
     {
-        img_url:"https://cdn.shopify.com/s/files/1/0361/8553/8692/products/Untitled-1_25_1.jpg?v=1660731137",
+        img_url:"https://cdn.shopify.com/s/files/1/0361/8553/8692/products/NIACINAMIDE_1.png?v=1658907926",
         rating:"⭐ 4.8 / 5",
         stock:"  (275)",
         name:"Vitamin C+E Moisturizer Blood Orange | Pigmentation",
@@ -222,7 +222,7 @@ let dataThree = [
         nPrice:"Rs: 565.00"
     },
     {
-        img_url:"https://cdn.shopify.com/s/files/1/0361/8553/8692/products/Untitled-1_3_8124891e-d162-491c-b41e-43ea643926f1.png?v=1658906811",
+        img_url:"https://cdn.shopify.com/s/files/1/0361/8553/8692/products/nightcream_2_2e3e7434-5b2f-4cf6-aef9-ade90482eea2.png?v=1658906872",
         rating:"⭐ 4.7 / 5",
         stock:"  (156)",
         name:"CICA Niacinamide Gel With Hyaluronic | Reduces Acne ",
@@ -230,7 +230,7 @@ let dataThree = [
         nPrice:"Rs: 470.00"  
     },
     {
-        img_url:"https://cdn.shopify.com/s/files/1/0361/8553/8692/products/PROBIOTICS_1_1_1_1_1_e0123849-0a5d-4c37-9ef6-96ad3836c842.jpg?v=1660732568",
+        img_url:"https://cdn.shopify.com/s/files/1/0361/8553/8692/products/WATERMELONWASH_1.jpg?v=1656934311",
         rating:"⭐ 4.7 / 5",
         stock:"  (248)",
         name:"Vitamin E Lip Mask , Butter & Almond  Blood  & Vitamin E.",
@@ -305,12 +305,35 @@ visibleDataThree(dataThree)
 
 
 
+// menu popup
+document.querySelector("#popu").addEventListener("click",()=>{
+    document.querySelector("body").style.overflowY="hidden"
+})
 
+document.querySelector("#close").addEventListener("click",()=>{
+    document.querySelector("body").style.overflowY="visible"
+})
 
+document.querySelector("#aaaa").addEventListener("click",()=>{
+    document.querySelector("body").style.overflowY="visible"
+})
+document.querySelector("#bbbb").addEventListener("click",()=>{
+    document.querySelector("body").style.overflowY="visible"
+})
+document.querySelector("#cccc").addEventListener("click",()=>{
+    document.querySelector("body").style.overflowY="visible"
+})
+document.querySelector("#dddd").addEventListener("click",()=>{
+    document.querySelector("body").style.overflowY="visible"
+})
+document.querySelector("#eeee").addEventListener("click",()=>{
+    document.querySelector("body").style.overflowY="visible"
+})
 
-
-
- 
-
-
+document.querySelector("#ffff").addEventListener("click",()=>{
+    document.querySelector("body").style.overflowY="visible"
+})
+document.querySelector("#gggg").addEventListener("click",()=>{
+    document.querySelector("body").style.overflowY="visible"
+})
 
