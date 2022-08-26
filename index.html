@@ -10,679 +10,9 @@
     <title>Dot & Key Skincare | Natural Skin care | Scientific Skincare</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">
+    <link rel="stylesheet" href="index.css">
     <script src="https://kit.fontawesome.com/9675dee80e.js" crossorigin="anonymous"></script>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;1,500&display=swap');
-
-        * {
-            margin: 0;
-            padding: 0;
-        }
-
-        .responsive {
-            display: flex;
-            margin: auto;
-            background-color: #50504b;
-        }
-
-        .one {
-            height: 30px;
-            color: white;
-            text-align: center;
-            margin-top: 5px;
-            font-size: 15px;
-            font-family: 'Montserrat', sans-serif;
-            font-weight: bolder;
-            text-transform: uppercase;
-            text-decoration: underline;
-            word-spacing: 3px;
-
-        }
-
-        #navbar {
-            height: 120px;
-            display: flex;
-            justify-content: space-around;
-            border-bottom: 0.5px solid #afafaf;
-        }
-
-        .nav_child {
-            width: 20%;
-        }
-
-        .menu {
-            font-size: 25px;
-            align-self: center;
-        }
-
-        .logo {
-            margin-top: 20px;
-            text-align: center;
-        }
-
-        .icons {
-            font-size: 25px;
-            align-self: center;
-            display: flex;
-            justify-content: space-evenly;
-        }
-
-        #navbar i {
-            color: #474747;
-        }
-
-
-
-        .main-imgs img {
-            width: 100vw;
-            height: 450px;
-            border-radius: 20px;
-        }
-
-        .slick-dots li button:before {
-            font-size: 15px;
-            line-height: 30px;
-        }
-
-
-        /* Main section  */
-
-        .lovedby {
-            width: 85%;
-            text-align: center;
-            margin: auto;
-            margin-top: 80px;
-            margin-bottom: 80px;
-        }
-
-        .lovedby>h3 {
-            font-size: 30px;
-            font-weight: 600;
-            text-transform: capitalize;
-            font-family: 'Montserrat', sans-serif;
-            opacity: 0.9;
-        }
-
-        .lovedby>h1 {
-            margin-top: 10px;
-            margin-bottom: 40px;
-            text-transform: capitalize;
-            font-size: 30px;
-            font-weight: 800;
-            font-family: 'Montserrat', sans-serif;
-            opacity: 0.8;
-        }
-
-        .lovedbyimg img {
-            width: 100%;
-            border-radius: 20px;
-        }
-
-        .slick-prev:before,
-        .slick-next:before {
-            color: #000;
-        }
-
-        .shopour {
-            width: 75%;
-            margin: auto;
-            text-align: center;
-        }
-
-        .shopour>h5 {
-            font-size: 22px;
-            font-weight: 600;
-            text-transform: capitalize;
-            font-family: 'Montserrat', sans-serif;
-            opacity: 0.9;
-        }
-
-        .shopour>h1 {
-            margin-top: 10px;
-            margin-bottom: 20px;
-            text-transform: capitalize;
-            font-size: 30px;
-            font-weight: 800;
-            font-family: 'Montserrat', sans-serif;
-            opacity: 0.8;
-        }
-
-        .card-wrapper {
-            display: flex;
-            justify-content: center;
-            margin: auto;
-        }
-
-
-        .bestseller {
-            width: 75%;
-            margin: auto;
-            text-align: center;
-        }
-
-        .bestseller>h5 {
-            margin-top: 80px;
-            font-size: 22px;
-            font-weight: 600;
-            text-transform: capitalize;
-            font-family: 'Montserrat', sans-serif;
-            opacity: 0.9;
-        }
-
-        .bestseller>h1 {
-            margin-top: 10px;
-            margin-bottom: 10px;
-            text-transform: capitalize;
-            font-size: 30px;
-            font-weight: 800;
-            font-family: 'Montserrat', sans-serif;
-            opacity: 0.8;
-            text-transform: uppercase;
-        }
-
-        .bestseller>.thirdMiddle {
-            width: 40%;
-            /* border: 1px solid red;*/
-            display: flex;
-            justify-content: space-evenly;
-            margin: auto;
-            font-family: 'Montserrat', sans-serif;
-            font-weight: 900;
-            letter-spacing: 1px;
-            margin-bottom: 30px;
-        }
-
-        .bestseller>.thirdMiddle>div {
-            opacity: 0.8;
-        }
-
-        .bestseller>.thirdMiddle>div:first-child {
-            color: red;
-            opacity: 1;
-        }
-
-        .card-wrapperTwo {
-            display: flex;
-            justify-content: center;
-            margin: auto;
-        }
-
-        .card {
-            width: 22%;
-            margin: 0 20px;
-            border: 0.5px solid #afafaf;
-        }
-
-        .card img {
-            width: 100%;
-        }
-
-        .card-content>h6 {
-            font-size: 13px;
-            opacity: 0.8;
-            font-family: 'Montserrat', sans-serif;
-        }
-
-        .card-content>h6>span {
-            color: blue;
-        }
-
-        .card-content>p {
-            margin-top: 10px;
-            margin-bottom: 10px;
-            font-size: 14px;
-            font-weight: bolder;
-            font-family: 'Montserrat', sans-serif;
-        }
-
-        #prodWHolePrice {
-            /* border: 1px solid green; */
-            display: flex;
-            justify-content: space-evenly;
-            font-family: 'Montserrat', sans-serif;
-            font-size: 13px;
-            font-weight: 600;
-            margin-bottom: 15px;
-        }
-
-        #prodWHolePrice>div:first-child {
-            opacity: 0.8;
-            text-decoration: line-through;
-        }
-
-        #prodWHolePrice>div:last-child {
-            color: red;
-        }
-
-        .card-content>button {
-            width: 100%;
-            font-size: 16px;
-            text-transform: uppercase;
-            padding: 10px 0;
-            background-color: #7b7b7b;
-            opacity: 0.8;
-            border: none;
-            color: #fff;
-        }
-
-
-        .spotlight {
-            width: 95%;
-            display: flex;
-            flex-direction: column;
-            margin: auto;
-            text-align: center;
-        }
-
-        .spotlight>h5 {
-            margin-top: 80px;
-            font-size: 22px;
-            font-weight: 600;
-            text-transform: capitalize;
-            font-family: 'Montserrat', sans-serif;
-            /* opacity: 0.9; */
-            text-transform: uppercase;
-        }
-
-        .spotlight>h1 {
-            /* margin-top: 10px; */
-            margin-bottom: 20px;
-            text-transform: capitalize;
-            font-size: 30px;
-            font-weight: 800;
-            font-family: 'Montserrat', sans-serif;
-            /* opacity: 0.8;  */
-            text-transform: uppercase;
-        }
-
-        .spotlightImg {
-            width: 100%;
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            grid-template-rows: repeat(1, 250px);
-            gap: 15px;
-        }
-
-        .spotlightImg img {
-            width: 100%;
-            height: 100%;
-            border-radius: 10px;
-        }
-
-        #oneSpotlight {
-            grid-area: 1/1/2/3;
-        }
-
-        #twoSpotlight {
-            grid-area: 1/3/2/5;
-        }
-
-        #threeSpotlight {
-            grid-area: 2/1/3/5;
-        }
-
-
-        .categories {
-            width: 75%;
-            margin: auto;
-            text-align: center;
-        }
-
-        .categories>h5 {
-            margin-top: 80px;
-            font-size: 22px;
-            font-weight: 600;
-            text-transform: capitalize;
-            font-family: 'Montserrat', sans-serif;
-            opacity: 0.9;
-        }
-
-        .categories>h1 {
-            margin-top: 10px;
-            margin-bottom: 10px;
-            text-transform: capitalize;
-            font-size: 30px;
-            font-weight: 800;
-            font-family: 'Montserrat', sans-serif;
-            opacity: 0.8;
-            text-transform: uppercase;
-        }
-
-        .categories>.fifthdMiddle {
-            width: 60%;
-            /* border: 1px solid red;*/
-            display: flex;
-            justify-content: space-evenly;
-            margin: auto;
-            font-family: 'Montserrat', sans-serif;
-            font-weight: 900;
-            letter-spacing: 1px;
-            margin-bottom: 30px;
-        }
-
-        #fifthMiddleRed {
-            color: red;
-            opacity: 1;
-        }
-
-        .card-wrapperThree {
-            display: flex;
-            justify-content: center;
-            margin: auto;
-        }
-
-        .fifth>.pinkBar {
-            margin-top: 40px;
-            width: 100vw;
-        }
-
-        .fifth>.pinkBar>a>img {
-            width: 100%;
-        }
-
-        .sixth {
-            width: 100vw;
-            margin-top: 80px;
-            text-align: center;
-        }
-
-        .Nclass>a>img {
-            width: 100%;
-        }
-
-
-        .seventh {
-            width: 100vw;
-            margin-top: 20px;
-            text-align: center;
-        }
-
-        .cleanBeuty>a>img {
-            width: 100%;
-
-        }
-
-        .seventh>h5 {
-            margin-top: 5px;
-            margin-bottom: 15px;
-            font-size: 20px;
-            font-weight: 600;
-            text-transform: capitalize;
-            font-family: 'Montserrat', sans-serif;
-            opacity: 0.9;
-            text-transform: uppercase;
-        }
-
-        .seventh>h1 {
-            margin-top: 50px;
-            /* margin-bottom: 10px; */
-            text-transform: capitalize;
-            font-size: 30px;
-            font-weight: 800;
-            font-family: 'Montserrat', sans-serif;
-            /* opacity: 0.8; */
-            text-transform: uppercase;
-        }
-
-        .eight {
-            width: 80vw;
-            display: flex;
-            flex-direction: column;
-            margin: auto;
-            text-align: center;
-        }
-
-        .eight h5 {
-            margin-top: 5px;
-            margin-bottom: 15px;
-            font-size: 20px;
-            font-weight: 600;
-            text-transform: capitalize;
-            font-family: 'Montserrat', sans-serif;
-            /* opacity: 0.9; */
-            text-transform: uppercase;
-        }
-
-        .eight h1 {
-            margin-top: 50px;
-            /* margin-bottom: 10px; */
-            text-transform: capitalize;
-            font-size: 30px;
-            font-weight: 800;
-            font-family: 'Montserrat', sans-serif;
-            /* opacity: 0.8; */
-            text-transform: uppercase;
-        }
-
-        .eightP2,
-        .eightP3 {
-            font-size: 20px;
-            font-family: 'Montserrat', sans-serif;
-            font-weight: bold;
-            line-height: 35px;
-            word-spacing: 3px;
-            letter-spacing: 0.5px;
-            opacity: 0.9;
-        }
-
-        .eightP3 {
-            margin: 30px 0;
-        }
-
-        .eight_logo {
-            display: flex;
-            justify-content: space-evenly;
-            /* border: 1px solid red; */
-        }
-
-        .eight_logo>img {
-            width: 200px;
-        }
-
-        .nine {
-            text-align: center;
-            width: 75vw;
-            margin: auto;
-        }
-
-        .nine>h5 {
-            margin-top: 20px;
-            margin-bottom: 5px;
-            font-size: 19px;
-            font-weight: 600;
-            text-transform: capitalize;
-            font-family: 'Montserrat', sans-serif;
-            /* opacity: 0.9; */
-            text-transform: uppercase;
-        }
-
-        .nine>h1 {
-            margin-top: 5px;
-            margin-bottom: 30px;
-            text-transform: capitalize;
-            font-size: 30px;
-            font-weight: 800;
-            font-family: 'Montserrat', sans-serif;
-            /* opacity: 0.8; */
-            text-transform: uppercase;
-        }
-
-        .nine img {
-            width: 150px;
-            height: 150px;
-            border-radius: 20px;
-            position: relative;
-        }
-
-        .customer {
-            display: flex;
-        }
-
-        .customer>div {
-            width: 30%;
-            margin: auto;
-
-            /* border: 1px solid black; */
-        }
-
-        .customer>div>div {
-            /* border: 1px solid red; */
-            border-radius: 10px;
-            margin-top: -35px;
-            padding-top: 40px;
-            padding-left: 15px;
-            padding-right: 25px;
-            padding-bottom: 10px;
-            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-        }
-
-        .customer>div>div>h4 {
-            text-align: left;
-            font-size: 12px;
-            margin-bottom: 10px;
-        }
-
-        .customer>div>div>h3 {
-            font-family: 'Montserrat', sans-serif;
-            font-weight: 900;
-            font-size: 14px;
-            text-align: justify;
-            line-height: 20px;
-
-        }
-
-        .customer>div>div>p {
-            margin-top: 10px;
-            font-family: 'Montserrat', sans-serif;
-            font-weight: 600;
-            font-size: 14px;
-            text-align: initial;
-            line-height: 23px;
-            opacity: 0.9;
-        }
-
-        .customer>div>div>h6 {
-            margin-top: 10px;
-            font-family: 'Montserrat', sans-serif;
-            text-align: right;
-        }
-
-        footer {
-            margin-top: 40px;
-            border-top: 0.5px solid #afafaf;
-        }
-
-        .footer {
-            width: 85vw;
-            display: flex;
-            margin: auto;
-            margin-top: 80px;
-            justify-content: center;
-            /* border: 1px solid red; */
-        }
-
-        .footer>div {
-            width: 30%;
-            display: flex;
-            /* margin: auto; */
-            /* padding-left: 20px; */
-            margin: 0 20px;
-            flex-direction: column;
-            /* border: 1px solid black; */
-        }
-
-        .footer a {
-            text-decoration: none;
-            color: #000;
-            opacity: 0.9;
-        }
-
-        .footer>div h2 {
-            text-transform: uppercase;
-            font-family: 'Montserrat', sans-serif;
-            font-size: 21px;
-            font-weight: bolder;
-            letter-spacing: 1px;
-            word-spacing: 3px;
-            text-align: left;
-            /* line-height: 20px; */
-            margin-bottom: 20px;
-        }
-
-        .footer>div>a>h4 {
-            text-transform: uppercase;
-            font-family: 'Montserrat', sans-serif;
-            font-weight: 900;
-            letter-spacing: 1px;
-            word-spacing: 3px;
-            text-align: left;
-            line-height: 20px;
-            margin-bottom: 20px;
-        }
-
-        .example>input {
-            font-size: 16px;
-            padding: 15px 20px;
-            border: none;
-        }
-
-        .example>input[type="email"] {
-            border-bottom: 2px solid #000;
-            margin-right: 20px;
-        }
-
-        .example>input[type="button"] {
-            background-color: #000;
-            color: #fff;
-            opacity: 0.75;
-            /* margin-right: 20px; */
-        }
-
-        .footerThree>button {
-            width: 50%;
-            margin-top: 20px;
-            padding: 15px 0;
-            font-size: 16px;
-            border: none;
-            background-color: #9d88ce;
-            color: #fff;
-            opacity: 0.8;
-        }
-
-        .footer-icons {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .footer-icons-logo {
-            width: 30%;
-            /* border: 1px solid; */
-            display: flex;
-            justify-content: space-between;
-            font-size: 26px;
-            padding: 0 60px;
-        }
-
-        .footer-icons>h1 {
-            font-family: 'Montserrat', sans-serif;
-            font-size: 16px;
-            font-weight: 900;
-            margin: 25px 0;
-        }
-
-        .footerThree>p {
-            font-family: 'Montserrat', sans-serif;
-            font-weight: bolder;
-            opacity: 0.8;
-        }
-
-
-
-        /* .slick-slide{
-            margin: 0 20px;
-        } */
-    </style>
+   
 
 
 </head>
@@ -691,42 +21,62 @@
 
     <header>
         <div id="bar" class="responsive">
-            <div class="one">5 Bestsellers free on orders 1399+</div>
-            <div class="one">3 Bestsellers free on orders 999+</div>
-            <div class="one">Upto 20% off sitewide</div>
-            <div class="one">3% off on prepaid orders+ 10% cashback</div>
-            <div class="one">flash Sale: serums & Masks at flat 499</div>
+            <div>5 Bestsellers free on orders 1399+</div>
+            <div>3 Bestsellers free on orders 999+</div>
+            <div>Upto 20% off sitewide</div>
+            <div>3% off on prepaid orders+ 10% cashback</div>
+            <div>flash Sale: serums & Masks at flat 499</div>
         </div>
         <div id="navbar">
-            <div class="menu nav_child">
-                <i class="fa-solid fa-bars-staggered"></i>
+            <div class="menu">
+                <a href="#popup1"><i class="fa-solid fa-bars-staggered" id="popu"></i></a>
+                <div id="popup1" class="overlay">
+                    <div class="popup">
+                        <a class="close" href="#" id="close">&times;</a>
+                        <div class="insidePopup">
+                            <ul class="menu-items">
+                                <li id="firstLi" ><a href="#showcase" id="aaaa">Home</a></li>
+                                <li><a href="#third" id="bbbb">BEST SELLER</a></li>
+                                <li><a href="#second" class="redish " id="cccc">499 Store</a></li>
+                                <li><a href="#fourth"  id="dddd">Shop By Spotlight</a></li>
+                                <li><a href="#fifth"  id="eeee">Shop By Top Categories</a></li>
+                                <li><a href="#contact" class="redish" id="ffff">What Is Us..</a></li>
+                            </ul>
+                            <a href="" id="gggg"><img src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/Cica_Sunscreen_Burger_Menu-02_2.png?v=1659613395" alt=""></a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="logo nav_child">
-                <img src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/unnamed_250x_200x_2x_260x_24408e11-6e3a-4a0c-8327-74d0455f7696_260x.jpg?v=1646547348"
-                    alt="mainLogo">
+           
+                
+          
+            <div class="logo">
+                <a href=""><img src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/unnamed_250x_200x_2x_260x_24408e11-6e3a-4a0c-8327-74d0455f7696_260x.jpg?v=1646547348"
+                    alt="mainLogo"></a>
             </div>
-            <div class="icons nav_child">
-                <i class="fa-solid fa-magnifying-glass"></i>
-                <i class="fa-solid fa-location-dot"></i>
-                <i class="fa-solid fa-cart-shopping"></i>
-                <i class="fa-solid fa-arrow-down"></i>
+            <div class="icons">
+                
+                <a href="./locationTracker/loca.html"><i class="fa-solid fa-location-dot"></i></a>
+                <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                <a href="./signup/signup.html"><i class="fa-solid fa-user"></i></a>
+                <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
             </div>
 
         </div>
 
         <div class="main-imgs">
-            <a href=""><img
+            <a href="#"><img
                     src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/1_desk_7f3df301-1d23-4327-800b-8b63bccfd0a6_1.jpg?v=1658910526"
                     alt=""></a>
-            <a href=""><img
+            <a href="#"><img
                     src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/Desktop_4_3babe833-d39a-41e1-820b-094106abf857.png?v=1658910529"
                     alt=""></a>
-            <a href=""><img src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/vit_c_desk_2.png?v=1660133127"
+            <a href="#"><img src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/vit_c_desk_2.png?v=1660133127"
                     alt=""></a>
-            <a href=""><img
+            <a href="#"><img
                     src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/1-Product_banner_Desktop_5.jpg?v=1659687433"
                     alt=""></a>
-            <a href=""><img
+            <a href="#"><img
                     src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/desk_home_top_7ad6b900-1b7f-4dc5-93f5-a2ee54906b6d.jpg?v=1660218807"
                     alt=""></a>
         </div>
@@ -734,7 +84,7 @@
     </header>
 
     <main>
-        <section class="first">
+        <section id="first">
             <div class="lovedby">
                 <h3>Loved by</h3>
                 <h1><i>10 lakh+ customers</i></h1>
@@ -751,14 +101,14 @@
                 </div>
             </div>
         </section>
-        <section class="second">
+        <section id="second">
             <div class="shopour">
                 <h5>shop our</h5>
                 <h1><i>new arrivals</i></h1>
                 <div class="card-wrapper"></div>
             </div>
         </section>
-        <section class="third">
+        <section id="third">
             <div class="bestseller">
                 <h5>our</h5>
                 <h1><i>BestSellers</i></h1>
@@ -771,7 +121,7 @@
                 <div class="card-wrapperTwo"></div>
             </div>
         </section>
-        <section class="fourth">
+        <section id="fourth">
             <div class="spotlight">
                 <h5>in the</h5>
                 <h1><i>spotlight</i></h1>
@@ -788,7 +138,7 @@
                 </div>
             </div>
         </section>
-        <section class="fifth">
+        <section id="fifth">
             <div class="categories">
                 <h5>SHOP OUR</h5>
                 <h1><i>Top Categories</i></h1>
@@ -806,14 +156,14 @@
                         alt=""></a>
             </div>
         </section>
-        <section class="sixth">
+        <section id="sixth">
             <div class="Nclass">
                 <a href=""><img
                         src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/D_K_Homepage_BOGO_Banner_Desktop_Version.gif?v=1659006084"
                         alt=""></a>
             </div>
         </section>
-        <section class="seventh">
+        <section id="seventh">
             <h1><i>Love Is greater</i></h1>
             <h5>when shared</h5>
             <div class="cleanBeuty">
@@ -822,21 +172,21 @@
                         alt=""></a>
             </div>
         </section>
-        <section class="eight">
-            <div class="eightP1">
+        <section id="eight">
+            <div id="eightP1">
                 <h1><i>Clean Beuty</i></h1>
                 <h5>with uncompromised efficacy</h5>
             </div>
-            <div class="eightP2">
+            <div id="eightP2">
                 At Dot & Key, we strive to find the missing <i><b>"dots"</b></i> in your skincare regime and are
-                obsessed with providing solutions or <i><b>"dots"</b></i> to these.
+                obsessed with providing solutions or <i><b>"keys"</b></i> to these.
             </div>
-            <div class="eightP3">
+            <div id="eightP3">
                 Our revolutionary products are crafted with utmost care and love for you. By blending <i><b>luxurious
                         botanicals</b></i> with<i><b> high performance activites</b></i>, we bring to you clean
                 formulations that are absolutely safe, delightfully gentle and unquestionably effective.
             </div>
-            <div class="eight_logo">
+            <div id="eight_logo">
                 <img src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/3-ICONS.png?v=1645770027" alt="">
                 <img src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/1-ICONS_b6233563-9f3e-43f6-b158-5205886e2120.png?v=1645779546"
                     alt="">
@@ -845,7 +195,7 @@
                 <img src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/2-ICONS.png?v=1645770027" alt="">
             </div>
         </section>
-        <section class="nine">
+        <section id="nine">
             <h5>customer</h5>
             <h1><i>reviews</i></h1>
             <div class="customer">
@@ -933,11 +283,6 @@
             </div>
         </div>
     </footer>
-
-
-
-
-
 
 </body>
 
