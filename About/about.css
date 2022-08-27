@@ -256,6 +256,7 @@ footer {
 }
 
 .example>input[type="button"] {
+    margin-top: 10px;
     background-color: #000;
     color: #fff;
     opacity: 0.75;

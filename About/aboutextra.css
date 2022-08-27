@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+
+main{
+    width: 95vw;
+    margin: auto;
+}
+
+main .bgimg{
+    width: 100%;
+    height: 600px;
+    background-image: url("https://cdn.shopify.com/s/files/1/0361/8553/8692/t/622/assets/1.jpg?v=108853718973995015521661420643");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    /* text-align: center; */
+}
+.bgimg>h1{
+    
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+}
+.bgimg>h1:first-child{
+    margin-top: 25px;
+}
+
+.para1{
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    text-align: center;
+    /* font-family: 'Poppins', sans-serif, Monserartt; */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 900;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+.para2{
+    width: 90%;
+    height: 400px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 80px;
+    /* border: 1px solid red; */
+}
+.para2>div{
+    width: 47%;
+    height: 100%;
+    /* border: 1px solid; */
+}
+
+.innerImg2 img{
+    width: 100%;
+    height: 100%;
+    
+}
+.insidePara2{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-self: center;
+    /* padding-top: 50px; */
+}
+.insidePara2>h1:first-child{
+    margin-top: 100px;
+}
+.insidePara2 h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    
+}
+.insidePara2 p{
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 900;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    
+}
+
+
+
+.para3{
+    width: 90%;
+    height: 500px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 80px;
+    /* border: 1px solid red; */
+}
+.para3>div{
+    width: 47%;
+    height: 100%;
+    /* border: 1px solid; */
+}
+
+.innerImg3 img{
+    width: 100%;
+    height: 100%;
+    
+}
+.insidePara3{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-self: center;
+    /* padding-top: 50px; */
+}
+.insidePara3>h1:first-child{
+    margin-top: 100px;
+}
+.insidePara3 h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    
+}
+.insidePara3 p{
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    /* line-height: 30px; */
+    font-weight: 900;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    
+}
+.insidePara3 h3{
+    font-family: 'Poppins', sans-serif; 
+}
+

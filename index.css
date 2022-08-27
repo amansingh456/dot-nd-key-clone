@@ -34,6 +34,7 @@ header{
 }
 
 #navbar{
+    width: 100%;
     height: 120px;
     display: flex;
     justify-content: space-around;
@@ -132,6 +133,97 @@ header{
       width: 70%;
     }
   }
+
+
+
+
+  .overlayxxx {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .overlayxxx:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .popupxxx{
+    margin: 30px auto;
+    padding: 10px 60px;
+    background: #fff;
+    border-radius: 5px;
+    width: 90%;
+    height: 90%;
+    position: relative;
+    transition: all 5s ease-in-out;
+  }
+ 
+  .popupxxx .closexxx{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+  }
+  .popupxxx .closexxx:hover {
+    color: #06D85F;
+  }
+  .popupxxx .contentxxx {
+    max-height: 30%;
+    overflow: auto;
+  }
+  
+  @media screen and (max-width: 700px){
+    .box{
+      width: 70%;
+    }
+    .popupxxx{
+      width: 70%;
+    }
+  }
+
+
+
+.popupxxxInner{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.popupxxxInner>h1{
+    font-size: 26px;
+}
+
+.popupxxxInner span{
+    color: red;
+}
+.popupxxxInner a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bolder;
+}
+.popupxxxInner a:hover{
+   
+    font-size: 26px;
+    color: #06D85F;
+}
+
+
+
 
 
 
@@ -252,6 +344,7 @@ header .slick-next{
     display: flex;
     justify-content: center;
     margin: auto;
+    text-align: center;
 }
 
 
@@ -306,6 +399,7 @@ header .slick-next{
     display: flex;
     justify-content: center;
     margin: auto;
+    text-align: center;
 }
 
 .card {
@@ -360,10 +454,14 @@ header .slick-next{
     font-size: 16px;
     text-transform: uppercase;
     padding: 10px 0;
-    background-color: #7b7b7b;
+    background-color: #323131;
+    cursor: pointer;
     opacity: 0.8;
     border: none;
     color: #fff;
+}
+.card-content>button:hover{
+    background-color: #424242;
 }
 
 
@@ -470,6 +568,35 @@ header .slick-next{
     display: flex;
     justify-content: center;
     margin: auto;
+    text-align: center;
+}
+.card-wrapperFour {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}
+
+.card-wrapperFour button {
+    width: 100%;
+    font-size: 16px;
+    text-transform: capitalize;
+    padding: 10px 0;
+    background-color: #323131;
+    cursor: pointer;
+    opacity: 0.8;
+    border: none;
+    border-top: 0.5px solid #afafaf;
+    color: #fff;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}
+.card-wrapperFour button:hover{
+    background-color: red;
+    border-top: none;
+    color: #fff;
+    font-size: 18px;
+   
 }
 
 #fifth>.pinkBar {
@@ -735,6 +862,7 @@ footer {
 }
 
 .example>input[type="button"] {
+    margin-top: 10px;
     background-color: #000;
     color: #fff;
     opacity: 0.75;
@@ -785,3 +913,263 @@ footer {
 /* .slick-slide{
     margin: 0 20px;
 } */
+
+
+
+/* media Queries ---> */
+
+@media all and (min-width: 920px) and (max-width: 1230px){
+    .footer-icons{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-bottom: 20px;
+        padding: 0px;
+    }
+
+
+}
+@media all and (min-width: 651px) and (max-width: 966px){
+    body{
+        width: 100vw;
+    }
+    #bar{
+        width: 100%;
+        display: flex;
+        margin: auto;
+        background-color: #50504b;
+    }
+    header{
+        width: 100%;
+    }
+    #navbar{
+        width: 100%;
+        justify-content: space-between;
+    }
+    #navbar .box{
+        margin-left: 5px;
+    }
+    #navbar .icons{
+        margin-right: 5px;
+    }
+
+    .menu{
+        font-size: 20px;
+    }
+
+    .popup{
+        width: 50%;
+        margin-top: 60px;
+    }
+    .insidePopup #gggg{
+        display: none;
+    }
+    .popupxxx{
+        height: 40%;
+        margin-left: 0;
+        margin-right: -20px;
+    }
+    .popupxxx .closexxx{
+        right: 60px;
+    }
+    .main-imgs{
+        width: 100%;
+    }
+
+    .shopour{
+        width: 100%;
+    }
+    .card-wrapper{
+    
+        flex-wrap: wrap;
+        row-gap: 40px;
+    }
+    .card-wrapper .card{
+        width: 40%;
+    }
+
+    /* .spotlight{
+        width: 100%;
+    } */
+    .categories{
+        width: 100%;
+    }
+    .card-wrapperTwo{
+    
+        flex-wrap: wrap;
+        row-gap: 40px;
+    }
+    .card-wrapperTwo .card{
+        width: 40%;
+    }
+
+    .bestseller{
+        width: 100%;
+    }
+    .card-wrapperThree{
+    
+        flex-wrap: wrap;
+        row-gap: 40px;
+    }
+    .card-wrapperThree .card{
+        width: 40%;
+    }
+
+    #eight_logo{
+        flex-wrap: wrap;
+    }
+
+    .customer{
+        flex-direction: column;
+    }
+
+    .customer div{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    #nine img{
+        width: 300px;
+        height: 300px;
+    }
+}
+
+
+@media all and (min-width: 320px) and (max-width: 650px){
+    body{
+        width: 100%;
+    }
+    #bar{
+        width: 100%;
+    }
+
+    #navbar{
+        justify-content: space-evenly;
+    }
+
+    .logo a img{
+        width: 150px;
+    }
+
+    #navbar .icons{
+        height: 100%;
+        align-items: center;
+       
+    }
+    #navbar .icons .fa-magnifying-glass{
+        display: none;
+    }
+    .menu{
+        font-size: 20px;
+    }
+
+    .popup{
+        width: 50%;
+        margin-top: 60px;
+        margin-left: 20px;
+    }
+    .insidePopup #gggg{
+        display: none;
+    }
+    .popupxxx{
+        height: 50%;
+    }
+    .popupxxx .closexxx{
+        right: 40px;
+    }
+
+    .shopour{
+        width: 100%;
+    }
+    .card-wrapper{
+    
+        flex-wrap: wrap;
+        row-gap: 40px;
+    }
+    .card-wrapper .card{
+        width: 80%;
+        
+    }
+    .card-content h6,div{
+        font-size: 25px;
+    }
+    .card-content p{
+        font-size: 25px;
+    }
+    .card-content button{
+        font-size: 25px;
+    }
+    
+
+    /* .spotlight{
+        width: 100%;
+    } */
+    .categories{
+        width: 100%;
+    }
+    .card-wrapperTwo{
+    
+        flex-wrap: wrap;
+        row-gap: 40px;
+    }
+    .card-wrapperTwo .card{
+        width: 80%;
+    }
+
+    .bestseller{
+        width: 100%;
+    }
+    .card-wrapperThree{
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        row-gap: 40px;
+    }
+    .card-wrapperThree .card{
+        width: 80%;
+    }
+    
+    #eight_logo{
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+        align-items: center;
+       
+    }
+    #eight_logo img{
+        width: 300px;
+        margin: 0px auto;
+    }
+    #eightP2,#eightP3{
+        width: 100%;
+        font-size: 22px;
+    }
+    .customer{
+        flex-direction: column;
+    
+    }
+
+    .customer div{
+        width: 100%;
+        margin-bottom: 40px;
+    
+    }
+    .customer_content p{
+        font-size: 26px;
+    }
+
+    #nine img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .footer{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .footer>div{
+        width: 100%;
+        margin-top: 30px;
+        font-size: 16px;
+    }
+
+}

@@ -12,7 +12,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">
     <link rel="stylesheet" href="signup.css">
     <script src="https://kit.fontawesome.com/9675dee80e.js" crossorigin="anonymous"></script>
-   
+    <script src="alert/dist/sweetalert-dev.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="alert/dist/sweetalert.css">
+
 
 
 </head>
@@ -40,7 +43,7 @@
                                 <li><a href="../index.html#second" class="redish " id="cccc">499 Store</a></li>
                                 <li><a href="../index.html#fourth"  id="dddd">Shop By Spotlight</a></li>
                                 <li><a href="../index.html#fifth"  id="eeee">Shop By Top Categories</a></li>
-                                <li><a href="../index.html#contact" class="redish" id="ffff">What Is Us..</a></li>
+                                <li><a href="../About/about.html" class="redish" id="ffff">What Is Us..</a></li>
                             </ul>
                             <a href="" id="gggg"><img src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/Cica_Sunscreen_Burger_Menu-02_2.png?v=1659613395" alt=""></a>
                         </div>
@@ -55,7 +58,22 @@
                     alt="mainLogo"></a>
             </div>
             <div class="icons">
-                <a href=""><i class="fa-solid fa-cart-shopping"></i><span>CHECK KART</span></a>
+                <div class="boxxxx">
+                    <a href="#popupxyz" id="popuxyz"><i class="fa-solid fa-cart-shopping" ></i><span>CHECK KART</span></a>
+                </div>
+            
+                <div id="popupxyz" class="overlayxxx">
+                    <div class="popupxxx">
+                        <a class="closexxx" href="#" id="closexxx">&times;</a>
+                       <div class="popupxxxInner">
+                        <h1>Bag <span id="counting">(0)</span></h1>
+                        <a href="../payment.html" id="checkoutnow">CheckOut Now !</a>
+                       </div>
+                       <div class="card-wrapperFour"></div>
+            
+                    </div>
+                </div>
+                <!-- <a href=""><i class="fa-solid fa-cart-shopping"></i><span>CHECK KART</span></a> -->
             </div>
 
         </div>
@@ -107,8 +125,8 @@
         <div class="footer">
             <div class="footerOne">
                 <b><h2>GET TO KNOW US</h2></b>
-                <a href=""><h4>About Us</h4></a>
-                <a href=""><h4>contact us</h4></a>
+                <a href="../About/about.html"><h4>About Us</h4></a>
+                <a href="../contact/contact.html"><h4>contact us</h4></a>
                 <a href=""><h4>earth care</h4></a>
                 <a href=""><h4>affiliate program</h4></a>
                 <a href=""><h4>terms & condition</h4></a>
@@ -119,10 +137,10 @@
             </div>
             <div class="footerTwo">
                 <b><h2>also available on</h2></b>
-                <a href=""><h4>nykaa</h4></a>
-                <a href=""><h4>amazon</h4></a>
-                <a href=""><h4>flipkart</h4></a>
-                <a href=""><h4>myntra</h4></a>
+                <a href="https://www.nykaa.com/brands/dot-key/c/7675"><h4>nykaa</h4></a>
+                <a href="https://www.amazon.in/b?ie=UTF8&node=26412625031"><h4>amazon</h4></a>
+                <a href="https://www.flipkart.com/beauty-and-grooming/body-face-skin-care/body-and-face-care/dot-key~brand/pr?sid=g9b%2Cema%2C5la"><h4>flipkart</h4></a>
+                <a href="https://www.myntra.com/dot-and-key"><h4>myntra</h4></a>
                 
             </div>
             <div class="footerThree">
@@ -146,77 +164,11 @@
             </div>
         </div>
     </footer>
-
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<script src="signup.js"></script>
 </body>
 
 </html>
 
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"
-    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-<script>
-
-    $('.responsive').slick({
-        dots: false,
-        infinite: true,
-        speed: 300,
-        slidesToShow: 1,
-        slidesToScroll: 4,
-        autoplay: true,
-        autoplaySpeed: 5000,
-        // responsive: [
-        //     {
-        //         breakpoint: 1024,
-        //         settings: {
-        //             slidesToShow: 3,
-        //             slidesToScroll: 3,
-        //             infinite: true,
-        //             dots: true
-        //         }
-        //     },
-        //     {
-        //         breakpoint: 600,
-        //         settings: {
-        //             slidesToShow: 2,
-        //             slidesToScroll: 2
-        //         }
-        //     },
-        //     {
-        //         breakpoint: 480,
-        //         settings: {
-        //             slidesToShow: 1,
-        //             slidesToScroll: 1
-        //         }
-        //     }
-        //     // You can unslick at a given breakpoint now by adding:
-        //     // settings: "unslick"
-        //     // instead of a settings object
-        // ]
-    });
-
-    $('.main-imgs').slick({
-        dots: true,
-        infinite: true,
-        speed: 1000,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 4000,
-        button: false,
-
-    });
-
-
-
-    $('.lovedbyimg').slick({
-        dots: true,
-        autoplay: true,
-        autoplaySpeed: 10000,
-
-    });
-
-
-
-
-</script>
-<script src="signup.js"></script>

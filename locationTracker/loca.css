@@ -55,83 +55,6 @@ header{
 }
 
 
-.overlay {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(0, 0, 0, 0.7);
-    transition: opacity 500ms;
-    visibility: hidden;
-    opacity: 0;
-  }
-  .overlay:target {
-    visibility: visible;
-    opacity: 1;
-  }
-  
-  .popup {
-    margin: 160px auto;
-    padding: 20px;
-    background: #fff;
-    border-radius: 5px;
-    width: 87%;
-    position: relative;
-    transition: all 5s ease-in-out;
-    z-index: +1000;
-  }
- 
-  .popup li{
-    margin: 30px 0;
-    list-style: none;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
-  }
-
-  .popup li a{
-    text-decoration: none;
-    color: #000;
-  }
-
-  #firstLi{
-    margin-top: 60px;
-  }
- 
-  .popup .close {
-    position: absolute;
-    /* top: 20px; */
-    /* right: 30px; */
-    transition: all 200ms;
-    font-size: 40px;
-    font-weight: bold;
-    text-decoration: none;
-    color: #333;
-  }
-  .popup .close:hover {
-    color: #06D85F;
-  }
-  .popup .content {
-    max-height: 30%;
-    overflow: auto;
-  }
-
-  .insidePopup{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .insidePopup img{
-    width: 600px;
-  }
-  @media screen and (max-width: 700px){
-    .box{
-      width: 70%;
-    }
-    .popup{
-      width: 70%;
-    }
-  }
 
 
 
@@ -242,7 +165,7 @@ header .slick-next{
     letter-spacing: 1px;
 }
 .shipmentForm>form{
-    z-index: -950;
+    /* z-index: -950; */
 }
 
 .shipmentForm input{
@@ -250,11 +173,11 @@ header .slick-next{
     padding: 20px;
     /* margin: auto; */
     margin: 0 auto; 
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     font-size: 16px;
     letter-spacing: 2px;
     opacity: 0.8; 
-    z-index: -100;
+    /* z-index: -100; */
 }
 
 .shipmentForm h4{
@@ -267,7 +190,7 @@ header .slick-next{
 .shipmentForm input[type="email"]{
     margin-bottom: 40px;
     display: block;
-    z-index: -230;
+    /* z-index: -230; */
 }
 .shipmentForm button{
     padding: 10px 15px;
@@ -277,7 +200,7 @@ header .slick-next{
     color: #fff;
     font-size: 18px;
     opacity: 0.9;
-    z-index: -900;
+    /* z-index: -900; */
 }
 
 
@@ -355,6 +278,7 @@ footer {
 }
 
 .example>input[type="button"] {
+    margin-top: 10px;
     background-color: #000;
     color: #fff;
     opacity: 0.75;
