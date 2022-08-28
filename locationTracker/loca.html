@@ -12,7 +12,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">
     <link rel="stylesheet" href="loca.css">
     <script src="https://kit.fontawesome.com/9675dee80e.js" crossorigin="anonymous"></script>
-   
+    <script src="alert/dist/sweetalert-dev.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="alert/dist/sweetalert.css">
 
 
 </head>
@@ -29,33 +31,19 @@
         </div>
         <div id="navbar">
             <div class="menu">
-                <a href="#popup1"><i class="fa-solid fa-bars-staggered" id="popu"></i></a>
-                <div id="popup1" class="overlay">
-                    <div class="popup">
-                        <a class="close" href="#" id="close">&times;</a>
-                        <div class="insidePopup">
-                            <ul class="menu-items">
-                                <li id="firstLi" ><a href="../index.html" id="aaaa">Home</a></li>
-                                <li><a href="../index.html#third" id="bbbb">BEST SELLER</a></li>
-                                <li><a href="../index.html#second" class="redish " id="cccc">499 Store</a></li>
-                                <li><a href="../index.html#fourth"  id="dddd">Shop By Spotlight</a></li>
-                                <li><a href="../index.html#fifth"  id="eeee">Shop By Top Categories</a></li>
-                                <li><a href="../index.html#contact" class="redish" id="ffff">What Is Us..</a></li>
-                            </ul>
-                            <a href="" id="gggg"><img src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/Cica_Sunscreen_Burger_Menu-02_2.png?v=1659613395" alt=""></a>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
            
                 
           
             <div class="logo">
-                <a href="#"><img src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/unnamed_250x_200x_2x_260x_24408e11-6e3a-4a0c-8327-74d0455f7696_260x.jpg?v=1646547348"
+                <a href="../index.html"><img src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/unnamed_250x_200x_2x_260x_24408e11-6e3a-4a0c-8327-74d0455f7696_260x.jpg?v=1646547348"
                     alt="mainLogo"></a>
             </div>
             <div class="icons">
-                <a href=""><i class="fa-solid fa-cart-shopping"></i><span>CHECK KART</span></a>
+                <div class="boxxxx">
+                    <!-- <a href="../index.html" id="popuxyz"><i class="fa-solid fa-cart-shopping" ></i><span>CHECK KART</span></a> -->
+                </div>
             </div>
         </div>
 
@@ -69,10 +57,10 @@
                 <h2><b>Track Shippment</b></h2>
             </div>
             <form>
-                <h3>Enter orderd id</h3>
-            <input type="number" name="" id="order" placeholder="Enter Orderd ID" required>
+            <h3>Enter orderd id</h3>
+            <input type="number" name="" id="order" placeholder="Enter Orderd ID">
             <h4>Enter email id</h4>
-            <input type="email" name="" id="email"placeholder="Enter Email ID" required>
+            <input type="email" name="" id="email"placeholder="Enter Email ID">
             <button type="submit">Track</button>
             </form>
         </div>
@@ -82,8 +70,8 @@
         <div class="footer">
             <div class="footerOne">
                 <b><h2>GET TO KNOW US</h2></b>
-                <a href=""><h4>About Us</h4></a>
-                <a href=""><h4>contact us</h4></a>
+                <a href="../About/about.html"><h4>About Us</h4></a>
+                <a href="../contact/contact.html"><h4>contact us</h4></a>
                 <a href=""><h4>earth care</h4></a>
                 <a href=""><h4>affiliate program</h4></a>
                 <a href=""><h4>terms & condition</h4></a>
@@ -94,10 +82,10 @@
             </div>
             <div class="footerTwo">
                 <b><h2>also available on</h2></b>
-                <a href=""><h4>nykaa</h4></a>
-                <a href=""><h4>amazon</h4></a>
-                <a href=""><h4>flipkart</h4></a>
-                <a href=""><h4>myntra</h4></a>
+                <a href="https://www.nykaa.com/brands/dot-key/c/7675"><h4>nykaa</h4></a>
+                <a href="https://www.amazon.in/b?ie=UTF8&node=26412625031"><h4>amazon</h4></a>
+                <a href="https://www.flipkart.com/beauty-and-grooming/body-face-skin-care/body-and-face-care/dot-key~brand/pr?sid=g9b%2Cema%2C5la"><h4>flipkart</h4></a>
+                <a href="https://www.myntra.com/dot-and-key"><h4>myntra</h4></a>
                 
             </div>
             <div class="footerThree">
@@ -110,86 +98,21 @@
                 <div class="footer-icons">
                     <h1>FOLLOWS US</h1>
                     <div class="footer-icons-logo">
-                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href=""><i class="fa-brands fa-instagram"></i></a>
-                    <a href=""><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://www.facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.youtube.com"><i class="fa-brands fa-youtube"></i></a>
                     </div>
                 </div>
                 <p>© 2022 Dot & Key</p>
             </div>
         </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 
+<script src="loca.js"></script>
 </body>
 
 </html>
 
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"
-    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-<script>
-
-    $('.responsive').slick({
-        dots: false,
-        infinite: true,
-        speed: 300,
-        slidesToShow: 1,
-        slidesToScroll: 4,
-        autoplay: true,
-        autoplaySpeed: 5000,
-        // responsive: [
-        //     {
-        //         breakpoint: 1024,
-        //         settings: {
-        //             slidesToShow: 3,
-        //             slidesToScroll: 3,
-        //             infinite: true,
-        //             dots: true
-        //         }
-        //     },
-        //     {
-        //         breakpoint: 600,
-        //         settings: {
-        //             slidesToShow: 2,
-        //             slidesToScroll: 2
-        //         }
-        //     },
-        //     {
-        //         breakpoint: 480,
-        //         settings: {
-        //             slidesToShow: 1,
-        //             slidesToScroll: 1
-        //         }
-        //     }
-        //     // You can unslick at a given breakpoint now by adding:
-        //     // settings: "unslick"
-        //     // instead of a settings object
-        // ]
-    });
-
-    $('.main-imgs').slick({
-        dots: true,
-        infinite: true,
-        speed: 1000,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 4000,
-        button: false,
-
-    });
-
-
-
-    $('.lovedbyimg').slick({
-        dots: true,
-        autoplay: true,
-        autoplaySpeed: 10000,
-
-    });
-
-
-
-
-</script>
-<script src="loca.js"></script>
