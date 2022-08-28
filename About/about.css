@@ -307,3 +307,143 @@ footer {
 /* .slick-slide{
     margin: 0 20px;
 } */
+
+
+@media all and (min-width: 651px) and (max-width: 966px){
+    body{
+        width: 100vw;
+    }
+    #bar{
+        width: 100%;
+        display: flex;
+        margin: auto;
+        background-color: #50504b;
+    }
+    header{
+        width: 100%;
+    }
+    #navbar{
+        width: 100%;
+        justify-content: space-between;
+    }
+    .menu #popu{
+        
+        margin-left: 40px;
+    }
+  
+
+    
+    .popup{
+        width: 50%;
+        margin-top: 60px;
+    }
+    .insidePopup #gggg{
+        display: none;
+    }
+    .popupxxx{
+        height: 90%;
+        margin-left: 0;
+        margin-right: -20px;
+    }
+    .popupxxx .closexxx{
+        right: 100px;
+    }
+
+    #popuxyz span{
+        display: none;
+    }
+    .popupxxxInner{
+        margin-top: 70px;
+    }
+
+
+
+    main{
+        width: 70%;
+    }
+
+    .para2{
+        display: none;
+    }
+    .para3{
+        display: none;
+    }
+
+    
+}
+
+@media all and (min-width: 320px) and (max-width: 650px){
+    body{
+        width: 100%;
+    }
+    #bar{
+        width: 100%;
+    }
+
+    #bar>div{
+        font-size: 10px;
+        /* letter-spacing: 10px; */
+    }
+    main{
+        width: 70%;
+    }
+
+    .popup{
+        width: 50%;
+        margin-top: 60px;
+        margin-left: 20px;
+    }
+    .popup li{
+        margin: 10px;
+        font-size: 16px;
+    }
+    .popup .close{
+        top: 0;
+    }
+    #firstLi{
+        margin-top: 20px;
+    }
+    .insidePopup #gggg{
+        display: none;
+    }
+    #popuxyz span{
+        display: none;
+
+    }
+    #popuxyz{
+        margin-left: 40px;
+    }
+
+    .popupxxx{
+        height: 50%;
+    }
+
+    .popupxxx .closexxx{
+        right: 60px;
+    }
+
+    .card-wrapperFour{
+        display: none;
+    }
+
+
+    .para2{
+        display: none;
+    }
+    .para3{
+        display: none;
+    }
+
+    
+    .footer{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .footer>div{
+        width: 100%;
+        margin-top: 30px;
+        font-size: 16px;
+    }
+
+}
