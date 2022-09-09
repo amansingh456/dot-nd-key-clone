@@ -64,7 +64,7 @@ let BagArr = JSON.parse(localStorage.getItem("BagItems")) || [];
 
 let dataOne = [
     {
-        img_url:"https://cdn.shopify.com/s/files/1/0361/8553/8692/products/20VITC_2.png?v=1658907052",
+        img_url:"https://cdn.shopify.com/s/files/1/0361/8553/8692/products/Artboard1-3_16_a20998d9-17fa-4e89-b31c-4e564f5cc009.jpg?v=1661765727",
         rating:"⭐ 4.7 / 5",
         stock:"  (58)",
         name:"20% Vitamin C Serum with  Ferulic Acid| Fades Royal",
@@ -73,7 +73,7 @@ let dataOne = [
 
      },
     {
-        img_url:"https://cdn.shopify.com/s/files/1/0361/8553/8692/products/CICASUNSCREEN_2.jpg?v=1656934758",
+        img_url:"https://cdn.shopify.com/s/files/1/0361/8553/8692/products/CICASUNSCREEN_2_1.jpg?v=1661764950",
         rating:"⭐ 4.8 / 5",
         stock:"  (275)",
         name:"Vitamin C+E Moisturizer Orange Blend | Pigmentation",
@@ -81,7 +81,7 @@ let dataOne = [
         nPrice:"Rs: 495.00"
     },
     {
-        img_url:"https://cdn.shopify.com/s/files/1/0361/8553/8692/products/Artboard1-4_15.webp?v=1658907103",
+        img_url:"https://cdn.shopify.com/s/files/1/0361/8553/8692/products/Artboard1-4_15_1.jpg?v=1661764748",
         rating:"⭐ 4.7 / 5",
         stock:"  (156)",
         name:"CICA Niacinamide Gel With Hyaluronic | Reduces Acne ",
@@ -89,7 +89,7 @@ let dataOne = [
         nPrice:"Rs: 470.00"  
     },
     {
-        img_url:"https://cdn.shopify.com/s/files/1/0361/8553/8692/products/WATERTONER_2.png?v=1658907972",
+        img_url:"https://cdn.shopify.com/s/files/1/0361/8553/8692/files/WATER_TONER.jpg?v=1658564108",
         rating:"⭐ 4.7 / 5",
         stock:"  (248)",
         name:"Vitamin E Lip Mask , Butter & Almond | & Vitamin E.",
@@ -175,7 +175,7 @@ visibleData(dataOne)
 
 let dataTwo = [
     {
-        img_url:"https://cdn.shopify.com/s/files/1/0361/8553/8692/products/LIPMASKW_APPLI_1.png?v=1658907666",
+        img_url:"https://cdn.shopify.com/s/files/1/0361/8553/8692/products/Untitled-1_25_1_1.jpg?v=1661765679",
         rating:"⭐ 4.7 / 5",
         stock:"  (58)",
         name:"20% Vitamin C Serum with  Ferulic Acid| Fades Royal",
@@ -184,7 +184,7 @@ let dataTwo = [
 
      },
     {
-        img_url:"https://cdn.shopify.com/s/files/1/0361/8553/8692/products/Untitled-1_25_1.jpg?v=1660731137",
+        img_url:"https://cdn.shopify.com/s/files/1/0361/8553/8692/products/Untitled-1_3_8124891e-d162-491c-b41e-43ea643926f1.jpg?v=1661765407",
         rating:"⭐ 4.8 / 5",
         stock:"  (275)",
         name:"Vitamin C+E Moisturizer Orange Blend | Pigmentation",
@@ -192,7 +192,7 @@ let dataTwo = [
         nPrice:"Rs: 565.00"
     },
     {
-        img_url:"https://cdn.shopify.com/s/files/1/0361/8553/8692/products/Untitled-1_3_8124891e-d162-491c-b41e-43ea643926f1.png?v=1658906811",
+        img_url:"https://cdn.shopify.com/s/files/1/0361/8553/8692/products/LIPMASKW_APPLI_1.jpg?v=1661765602",
         rating:"⭐ 4.7 / 5",
         stock:"  (156)",
         name:"CICA Niacinamide Gel With Hyaluronic | Reduces Acne ",
@@ -282,7 +282,7 @@ visibleDataTwo(dataTwo)
 
 let dataThree = [
     {
-        img_url:"https://cdn.shopify.com/s/files/1/0361/8553/8692/products/1-Green-Clay-Mask.png?v=1658907624",
+        img_url:"https://cdn.shopify.com/s/files/1/0361/8553/8692/products/1-Green-Clay-Mask_9c094a0e-35b9-4b79-9a0a-8cf2bba91695.jpg?v=1661765543",
         rating:"⭐ 4.7 / 5",
         stock:"  (58)",
         name:"20% Vitamin C Serum with  Ferulic Acid| Fades Royal",
@@ -291,7 +291,7 @@ let dataThree = [
 
      },
     {
-        img_url:"https://cdn.shopify.com/s/files/1/0361/8553/8692/products/NIACINAMIDE_1.png?v=1658907926",
+        img_url:"https://cdn.shopify.com/s/files/1/0361/8553/8692/products/NIACINAMIDE_1_72e71c84-c5af-4edb-97aa-f429f39b0d4a.jpg?v=1661765640",
         rating:"⭐ 4.8 / 5",
         stock:"  (275)",
         name:"Vitamin C+E Moisturizer Orange Bend | Pigmentation",
@@ -307,7 +307,7 @@ let dataThree = [
         nPrice:"Rs: 470.00"  
     },
     {
-        img_url:"https://cdn.shopify.com/s/files/1/0361/8553/8692/products/WATERMELONWASH_1.jpg?v=1656934311",
+        img_url:"https://cdn.shopify.com/s/files/1/0361/8553/8692/products/WATERMELONWASH_1_1.jpg?v=1661765105",
         rating:"⭐ 4.7 / 5",
         stock:"  (248)",
         name:"Vitamin E Lip Mask , Butter & Almond  |  & Vitamin E.",
