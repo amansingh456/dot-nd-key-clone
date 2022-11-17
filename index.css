@@ -80,7 +80,7 @@ header{
     width: 87%;
     position: relative;
     transition: all 5s ease-in-out;
-    z-index: +1000;
+    z-index: +99;
   }
  
   .popup li{

@@ -64,7 +64,7 @@ let BagArr = JSON.parse(localStorage.getItem("BagItems")) || [];
 
 let dataOne = [
     {
-        img_url:"https://cdn.shopify.com/s/files/1/0361/8553/8692/products/Artboard1-3_16_a20998d9-17fa-4e89-b31c-4e564f5cc009.jpg?v=1661765727",
+        img_url:"https://cdn.shopify.com/s/files/1/0361/8553/8692/products/Untitled-1_3_1_1_360x.png?v=1666088953",
         rating:"⭐ 4.7 / 5",
         stock:"  (58)",
         name:"20% Vitamin C Serum with  Ferulic Acid| Fades Royal",
@@ -73,7 +73,7 @@ let dataOne = [
 
      },
     {
-        img_url:"https://cdn.shopify.com/s/files/1/0361/8553/8692/products/CICASUNSCREEN_2_1.jpg?v=1661764950",
+        img_url:"https://cdn.shopify.com/s/files/1/0361/8553/8692/products/cica_cac_1_540x_b9a7ef82-a851-4616-9789-2f56190a0d0c_360x.webp?v=1666870555",
         rating:"⭐ 4.8 / 5",
         stock:"  (275)",
         name:"Vitamin C+E Moisturizer Orange Blend | Pigmentation",
@@ -81,7 +81,7 @@ let dataOne = [
         nPrice:"Rs: 495.00"
     },
     {
-        img_url:"https://cdn.shopify.com/s/files/1/0361/8553/8692/products/Artboard1-4_15_1.jpg?v=1661764748",
+        img_url:"https://cdn.shopify.com/s/files/1/0361/8553/8692/products/waterserum_540x_0516de5a-c9bc-432b-bd2f-0445bcf30ec0_360x.webp?v=1666870447",
         rating:"⭐ 4.7 / 5",
         stock:"  (156)",
         name:"CICA Niacinamide Gel With Hyaluronic | Reduces Acne ",
@@ -89,7 +89,7 @@ let dataOne = [
         nPrice:"Rs: 470.00"  
     },
     {
-        img_url:"https://cdn.shopify.com/s/files/1/0361/8553/8692/files/WATER_TONER.jpg?v=1658564108",
+        img_url:"https://cdn.shopify.com/s/files/1/0361/8553/8692/products/cica_nia_1_540x_df5c60f6-5ff6-4a7a-850f-6746587c1f49_360x.webp?v=1666870531",
         rating:"⭐ 4.7 / 5",
         stock:"  (248)",
         name:"Vitamin E Lip Mask , Butter & Almond | & Vitamin E.",
@@ -175,7 +175,7 @@ visibleData(dataOne)
 
 let dataTwo = [
     {
-        img_url:"https://cdn.shopify.com/s/files/1/0361/8553/8692/products/Untitled-1_25_1_1.jpg?v=1661765679",
+        img_url:"https://cdn.shopify.com/s/files/1/0361/8553/8692/products/Copyofcicanightgel_540x_35cb6bf5-49aa-49cd-9256-1af76fbc574a_360x.webp?v=1668517182",
         rating:"⭐ 4.7 / 5",
         stock:"  (58)",
         name:"20% Vitamin C Serum with  Ferulic Acid| Fades Royal",
@@ -184,7 +184,7 @@ let dataTwo = [
 
      },
     {
-        img_url:"https://cdn.shopify.com/s/files/1/0361/8553/8692/products/Untitled-1_3_8124891e-d162-491c-b41e-43ea643926f1.jpg?v=1661765407",
+        img_url:"https://cdn.shopify.com/s/files/1/0361/8553/8692/products/CopyofVITCMOIST_540x_89c99ba4-2dc4-4e99-bb46-f4b2764ce4dd_360x.webp?v=1668517198",
         rating:"⭐ 4.8 / 5",
         stock:"  (275)",
         name:"Vitamin C+E Moisturizer Orange Blend | Pigmentation",
@@ -192,7 +192,7 @@ let dataTwo = [
         nPrice:"Rs: 565.00"
     },
     {
-        img_url:"https://cdn.shopify.com/s/files/1/0361/8553/8692/products/LIPMASKW_APPLI_1.jpg?v=1661765602",
+        img_url:"https://cdn.shopify.com/s/files/1/0361/8553/8692/products/Copyofretinol_540x_e4461228-4859-4696-b86c-6c692d28ac01_360x.webp?v=1668517191",
         rating:"⭐ 4.7 / 5",
         stock:"  (156)",
         name:"CICA Niacinamide Gel With Hyaluronic | Reduces Acne ",
@@ -200,7 +200,7 @@ let dataTwo = [
         nPrice:"Rs: 470.00"  
     },
     {
-        img_url:"https://cdn.shopify.com/s/files/1/0361/8553/8692/products/PROBIOTICS_1_1_1_1_1_e0123849-0a5d-4c37-9ef6-96ad3836c842.jpg?v=1660732568",
+        img_url:"https://cdn.shopify.com/s/files/1/0361/8553/8692/products/Copyof72hr_540x_5283a5ca-a0e4-4dec-8391-809319c9a95e_360x.webp?v=1668517165",
         rating:"⭐ 4.7 / 5",
         stock:"  (248)",
         name:"Vitamin E Lip Mask , Butter & Almond  |  & Vitamin E.",
@@ -282,7 +282,7 @@ visibleDataTwo(dataTwo)
 
 let dataThree = [
     {
-        img_url:"https://cdn.shopify.com/s/files/1/0361/8553/8692/products/1-Green-Clay-Mask_9c094a0e-35b9-4b79-9a0a-8cf2bba91695.jpg?v=1661765543",
+        img_url:"https://cdn.shopify.com/s/files/1/0361/8553/8692/products/Copyofbaku_360x.jpg?v=1666354301",
         rating:"⭐ 4.7 / 5",
         stock:"  (58)",
         name:"20% Vitamin C Serum with  Ferulic Acid| Fades Royal",
@@ -291,7 +291,7 @@ let dataThree = [
 
      },
     {
-        img_url:"https://cdn.shopify.com/s/files/1/0361/8553/8692/products/NIACINAMIDE_1_72e71c84-c5af-4edb-97aa-f429f39b0d4a.jpg?v=1661765640",
+        img_url:"https://cdn.shopify.com/s/files/1/0361/8553/8692/products/Copyofcocoa_1_360x.jpg?v=1666354355",
         rating:"⭐ 4.8 / 5",
         stock:"  (275)",
         name:"Vitamin C+E Moisturizer Orange Bend | Pigmentation",
@@ -299,7 +299,7 @@ let dataThree = [
         nPrice:"Rs: 565.00"
     },
     {
-        img_url:"https://cdn.shopify.com/s/files/1/0361/8553/8692/products/nightcream_2_2e3e7434-5b2f-4cf6-aef9-ade90482eea2.png?v=1658906872",
+        img_url:"https://cdn.shopify.com/s/files/1/0361/8553/8692/products/Copyofgreenclay_540x_727b49e9-8661-407b-a1f0-237ccae0f4d5_360x.webp?v=1666870933",
         rating:"⭐ 4.7 / 5",
         stock:"  (156)",
         name:"CICA Niacinamide Gel With Hyaluronic | Reduces Acne ",
@@ -307,7 +307,7 @@ let dataThree = [
         nPrice:"Rs: 470.00"  
     },
     {
-        img_url:"https://cdn.shopify.com/s/files/1/0361/8553/8692/products/WATERMELONWASH_1_1.jpg?v=1661765105",
+        img_url:"https://cdn.shopify.com/s/files/1/0361/8553/8692/products/hand_36e6c31e-1329-4ad8-9f9b-8141bb2a4836_360x.jpg?v=1668678249",
         rating:"⭐ 4.7 / 5",
         stock:"  (248)",
         name:"Vitamin E Lip Mask , Butter & Almond  |  & Vitamin E.",
