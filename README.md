@@ -22,6 +22,8 @@ https://dot-and-key-ecommerce.netlify.app
 
 
 ## Screenshots
-![](https://github.com/amansingh456/eminent-art-8078/blob/main/Screenshot%20(45).png)
-![](https://github.com/amansingh456/eminent-art-8078/blob/main/Screenshot%20(46).png)
-![](https://github.com/amansingh456/eminent-art-8078/blob/main/Screenshot%20(47).png)
+![](https://github.com/amansingh456/radioactive-geese-7505/blob/main/Screenshot%20(48).png)
+![](https://github.com/amansingh456/radioactive-geese-7505/blob/main/Screenshot%20(51).png)
+![](https://github.com/amansingh456/radioactive-geese-7505/blob/main/Screenshot%20(49).png)
+![](https://github.com/amansingh456/radioactive-geese-7505/blob/main/Screenshot%20(52).png)
+![](https://github.com/amansingh456/radioactive-geese-7505/blob/main/Screenshot%20(50).png)
