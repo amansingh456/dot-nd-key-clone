@@ -1,6 +1,6 @@
 # Dot & Key CLone
 
-This is an E-Commerce Website. user can buy all slin related products from here. I have used HTMl, CSS and JavaScript to do different tasks in this project. Please have a look on this repo. You can find the deployed link below...
+This is an E-Commerce Website, where user can buy all premium skin related product . It was acquired by Nykaa and it is an Indian Brand. Please have a look on this repo, you can find the deployed link below...
 
 ## Deployed link -
 
