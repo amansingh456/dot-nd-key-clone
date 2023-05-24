@@ -73,7 +73,7 @@ let dataOne = [
 
      },
     {
-        img_url:"https://cdn.shopify.com/s/files/1/0361/8553/8692/products/cica_cac_1_540x_b9a7ef82-a851-4616-9789-2f56190a0d0c_360x.webp?v=1666870555",
+        img_url:"https://www.dotandkey.com/cdn/shop/files/vitcsunscreen_1747d970-e108-40f7-93dd-d5818262c85d_360x.jpg?v=1684820542",
         rating:"⭐ 4.8 / 5",
         stock:"  (275)",
         name:"Vitamin C+E Moisturizer Orange Blend | Pigmentation",
@@ -81,7 +81,7 @@ let dataOne = [
         nPrice:"Rs: 495.00"
     },
     {
-        img_url:"https://cdn.shopify.com/s/files/1/0361/8553/8692/products/waterserum_540x_0516de5a-c9bc-432b-bd2f-0445bcf30ec0_360x.webp?v=1666870447",
+        img_url:"https://www.dotandkey.com/cdn/shop/files/watermelonsun_0e7c7b10-c99f-42ea-ae8c-cde3a017947e_360x.jpg?v=1684821837",
         rating:"⭐ 4.7 / 5",
         stock:"  (156)",
         name:"CICA Niacinamide Gel With Hyaluronic | Reduces Acne ",
@@ -89,7 +89,7 @@ let dataOne = [
         nPrice:"Rs: 470.00"  
     },
     {
-        img_url:"https://cdn.shopify.com/s/files/1/0361/8553/8692/products/cica_nia_1_540x_df5c60f6-5ff6-4a7a-850f-6746587c1f49_360x.webp?v=1666870531",
+        img_url:"https://www.dotandkey.com/cdn/shop/files/vitcnew_360x.jpg?v=1684820620",
         rating:"⭐ 4.7 / 5",
         stock:"  (248)",
         name:"Vitamin E Lip Mask , Butter & Almond | & Vitamin E.",
@@ -175,7 +175,7 @@ visibleData(dataOne)
 
 let dataTwo = [
     {
-        img_url:"https://cdn.shopify.com/s/files/1/0361/8553/8692/products/Copyofcicanightgel_540x_35cb6bf5-49aa-49cd-9256-1af76fbc574a_360x.webp?v=1668517182",
+        img_url:"https://www.dotandkey.com/cdn/shop/files/72hr_360x.jpg?v=1684819946s",
         rating:"⭐ 4.7 / 5",
         stock:"  (58)",
         name:"20% Vitamin C Serum with  Ferulic Acid| Fades Royal",
@@ -184,7 +184,7 @@ let dataTwo = [
 
      },
     {
-        img_url:"https://cdn.shopify.com/s/files/1/0361/8553/8692/products/CopyofVITCMOIST_540x_89c99ba4-2dc4-4e99-bb46-f4b2764ce4dd_360x.webp?v=1668517198",
+        img_url:"https://www.dotandkey.com/cdn/shop/files/cicaoilfree_360x.jpg?v=1684822268",
         rating:"⭐ 4.8 / 5",
         stock:"  (275)",
         name:"Vitamin C+E Moisturizer Orange Blend | Pigmentation",
@@ -200,7 +200,7 @@ let dataTwo = [
         nPrice:"Rs: 470.00"  
     },
     {
-        img_url:"https://cdn.shopify.com/s/files/1/0361/8553/8692/products/Copyof72hr_540x_5283a5ca-a0e4-4dec-8391-809319c9a95e_360x.webp?v=1668517165",
+        img_url:"https://www.dotandkey.com/cdn/shop/files/lipmask_360x.jpg?v=1684821528",
         rating:"⭐ 4.7 / 5",
         stock:"  (248)",
         name:"Vitamin E Lip Mask , Butter & Almond  |  & Vitamin E.",
@@ -291,7 +291,7 @@ let dataThree = [
 
      },
     {
-        img_url:"https://cdn.shopify.com/s/files/1/0361/8553/8692/products/Copyofcocoa_1_360x.jpg?v=1666354355",
+        img_url:"https://www.dotandkey.com/cdn/shop/files/strawberry_f623e305-a335-47ac-9aa1-c61279335834_360x.jpg?v=1684821643",
         rating:"⭐ 4.8 / 5",
         stock:"  (275)",
         name:"Vitamin C+E Moisturizer Orange Bend | Pigmentation",
@@ -299,7 +299,7 @@ let dataThree = [
         nPrice:"Rs: 565.00"
     },
     {
-        img_url:"https://cdn.shopify.com/s/files/1/0361/8553/8692/products/Copyofgreenclay_540x_727b49e9-8661-407b-a1f0-237ccae0f4d5_360x.webp?v=1666870933",
+        img_url:"https://www.dotandkey.com/cdn/shop/files/cactus_360x.jpg?v=1684820723",
         rating:"⭐ 4.7 / 5",
         stock:"  (156)",
         name:"CICA Niacinamide Gel With Hyaluronic | Reduces Acne ",
